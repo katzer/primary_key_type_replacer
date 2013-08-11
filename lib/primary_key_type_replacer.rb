@@ -1,7 +1,7 @@
-require 'primary_key_replacer/version'
+require 'primary_key_type_replacer/version'
 require 'active_record/migration'
 
-module PrimaryKeyReplacer
+module PrimaryKeyTypeReplacer
   # Manipuliert die Klasse `ActiveRecord::Migration`
   ActiveRecord::Migration.class_eval do
     # Ermöglicht das Setzen des Typs des Primärschlüssels.

@@ -3,11 +3,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'primary_key_replacer/version'
+require 'primary_key_type_replacer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'primary_key_replacer'
-  spec.version       = PrimaryKeyReplacer::VERSION
+  spec.name          = 'primary_key_type_replacer'
+  spec.version       = PrimaryKeyTypeReplacer::VERSION
   spec.authors       = ['Sebastián Katzer']
   spec.email         = ['katzer.sebastian@googlemail.com']
   spec.description   = %q{ActiveRecord plugin to replace the primary key type}
