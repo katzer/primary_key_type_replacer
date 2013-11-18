@@ -28,7 +28,7 @@ Or install it yourself as:
 This gem adds the **singleton method** `replace_primary_key_type_with(_type_)` to your migration files.<br>
 See example below how to use it to disable the *autoincrement* feature.
 ```ruby
-class CreateTableWwithoutAutoIncrement < ActiveRecord::Migration
+class CreateTableWithoutAutoIncrement < ActiveRecord::Migration
   # Setzt den Typ des Primärschlüssels
   replace_primary_key_type_with case adapter_name
                                 when 'Mysql2'
